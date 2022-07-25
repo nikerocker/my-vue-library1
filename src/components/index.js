@@ -1,8 +1,8 @@
 import Vue from "vue";
-import Banner from "./Banner.vue";
+import BannerComponent from "./BannerComponent.vue";
 
 const Components = {
-  Banner,
+  BannerComponent,
 };
 
 Object.keys(Components).forEach((name) => {

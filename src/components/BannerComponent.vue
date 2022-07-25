@@ -7,9 +7,10 @@
 const defaultStyles = {
   left: 0,
   right: 0,
+  // margin: auto,
 };
 export default {
-  name: 'Banner',
+  name: 'BannerComponent',
   props: {
     position: {
       type: String,
@@ -40,6 +41,7 @@ export default {
 	 color: #f6a623;
 	 text-align: left;
 	 position: fixed;
+   text-align: center;
 	 z-index: 2;
 }
  .banner__top {
