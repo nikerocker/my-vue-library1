@@ -1,8 +1,10 @@
 import Vue from "vue";
-import Banner from "./Banner.vue";
+import BannerComponent from "./BannerComponent.vue";
+import DataTable from "./Table/DataTable.vue";
 
 const Components = {
-  Banner,
+  BannerComponent,
+  DataTable
 };
 
 Object.keys(Components).forEach((name) => {
